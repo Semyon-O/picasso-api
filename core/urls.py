@@ -21,5 +21,5 @@ from picasso_api.views import ListFileView, UploadNewFile
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('file/', ListFileView.as_view()),
-    path('upload/', UploadNewFile.as_view())
+    path('upload/', UploadNewFile.as_view()),
 ]
